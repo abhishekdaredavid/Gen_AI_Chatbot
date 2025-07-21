@@ -6,7 +6,7 @@ import openai
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 @app.route("/ask", methods=["POST"])
 def ask():
