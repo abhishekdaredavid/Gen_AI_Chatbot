@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-GEMINI_API_KEY = "your-gemini-api-key"
+GEMINI_API_KEY = "AIzaSyA_ZjeqD4TnRjAOudYn6TofWAi2KGIhCnA"
 
 @app.route('/ask', methods=['POST'])
 def ask():
